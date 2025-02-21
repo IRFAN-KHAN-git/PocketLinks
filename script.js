@@ -3,7 +3,7 @@ import { getDatabase, ref , push , onValue , remove } from "https://www.gstatic.
 
 const firebaseConfig = {
 
-    databaseURL: "https://lead-tracker-app-33c1d-default-rtdb.asia-southeast1.firebasedatabase.app/"
+    databaseURL: //database url
 }
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app)
